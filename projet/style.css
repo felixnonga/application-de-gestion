@@ -1,0 +1,156 @@
+ body {
+            background-color: #0074D9;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 1200px; /* Agrandir la largeur du cadre */
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #FFFFFF;
+            border-radius: 20px; /* Bordures un peu rondes */
+            text-align: center; /* Centrer le contenu */
+        }
+        h1 {
+            font-size: 36px; /* Agrandir la taille du titre */
+        }
+        table {
+            width: 100%; /* Agrandir la largeur du tableau */
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #3498DB;
+            color: #FFFFFF;
+        }
+        tr:nth-child(even) {
+            background-color: #F2F2F2;
+        }
+        .btn-modifier, .btn-supprimer {
+            padding: 5px 10px;
+            background-color: #2ECC71;
+            color: #FFFFFF;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px; /* Bordures un peu rondes */
+        }
+        .btn-supprimer {
+            background-color: #E74C3C;
+        }
+        #btnAjouter {
+            background-color: #E74C3C;
+            font-size: 18px; /* Agrandir la taille du bouton */
+            width: 250px; /* Agrandir la largeur du bouton */
+            margin: 20px auto; /* Centrer le bouton horizontalement */
+            display: block;
+            border: none; /* Supprimer la bordure noire */
+            color: #FFFFFF; /* Écriture en blanc */
+            border-radius: 10px; /* Bordures un peu rondes */
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Police captivante */
+            background-color: #f0f0f0; /* Couleur de fond */
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #0056b3; /* Bleu foncé */
+            color: #ffffff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            max-width: 100px;
+            margin-left: 20px;
+        }
+        .title {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #fff;
+        }
+        .profile {
+            max-width: 50px;
+            margin-right: 20px;
+        }
+        .nav {
+            background-color: #ffffff;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #0056b3; /* Bleu foncé */
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .nav a:hover {
+            background-color: #ff4d4d; /* Rouge */
+            color: #ffffff;
+        }
+        .sub-menu {
+            position: relative;
+            display: inline-block;
+        }
+        .sub-menu-content {
+            display: none;
+            position: absolute;
+            background-color: #ffffff;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .sub-menu:hover .sub-menu-content {
+            display: block;
+        }
+        .sub-menu-content a {
+            color: #0056b3; /* Bleu foncé */
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+        }
+        .sub-menu-content a:hover {
+            background-color: #0056b3; /* Bleu foncé */
+            color: #ffffff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 10px auto; /* Centrer le conteneur */
+            padding: 20px;
+            background-color: #c0c0c0;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #0056b3; /* Bleu foncé */
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #0056b3; /* Bleu foncé */
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #ff4d4d; /* Rouge */
+        }
+        .button:hover + .sub-menu-content {
+            display: block; /* Affichage du sous-menu au survol */
+        }
+        .footer {
+            background-color: #0056b3; /* Bleu foncé */
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
